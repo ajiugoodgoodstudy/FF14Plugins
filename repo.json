@@ -1,0 +1,15 @@
+[
+  {
+    "Author": "Codex",
+    "Name": "雇员同类物品存取",
+    "InternalName": "RetainerStackTransfer",
+    "AssemblyVersion": "1.1.1.0",
+    "DalamudApiLevel": 15,
+    "ApplicableVersion": "any",
+    "Punchline": "在雇员背包中，右键按物品类别批量存取。",
+    "Description": "打开雇员道具栏后，右键自己的物品可存入同类物品，右键雇员的物品可取出同类物品。关闭道具栏会停止本次操作。",
+    "RepoUrl": "https://github.com/ajiugoodgoodstudy/FF14Plugins",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/ajiugoodgoodstudy/FF14Plugins/main/Plugins/RetainerStackTransfer/1.1.1.0/RetainerStackTransfer.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/ajiugoodgoodstudy/FF14Plugins/main/Plugins/RetainerStackTransfer/1.1.1.0/RetainerStackTransfer.zip"
+  }
+]

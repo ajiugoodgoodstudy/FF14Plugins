@@ -1,0 +1,21 @@
+{
+  "SchemaVersion": 1,
+  "Modules": [
+    {
+      "InternalName": "RetainerFamilyTransfer",
+      "Author": "Codex",
+      "RepositoryURL": "https://github.com/ajiugoodgoodstudy/FF14Plugins",
+      "Version": "1.1.1",
+      "ApiVersion": 1,
+      "MinimumOmniVersion": "1.2.0.9",
+      "File": "Modules/RetainerFamilyTransfer/1.1.1/RetainerFamilyTransfer.dll",
+      "Sha256": "3AD1F09D74ED013796DEC112223642DBBE61E29D35FF43CD527F86534D85A334",
+      "Localization": {
+        "Source": {
+          "Title": "雇员同类物品存取",
+          "Description": "打开雇员道具栏后，右键查看匹配类别和格数，并按类别批量存取。支持九宫幻卡、乐谱、料理、矿产、木材花草、魔晶石、染料、装备等。"
+        }
+      }
+    }
+  ]
+}
