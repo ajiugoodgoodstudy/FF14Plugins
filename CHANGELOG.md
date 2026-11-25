@@ -4,6 +4,27 @@
 
 Each entry is maintained in Chinese and English. Dates use Beijing time (UTC+8). The entries from 1.0.0 through 1.1.0 are based on archived local builds and tests. The first version available through the GitHub feeds was 1.1.1.
 
+## 1.2.0 · 重整六类物品 / Six revised item families
+
+2026-11-25 · 橙月独立版与 Omni 模块同步发布 / Standalone Dalamud plugin and Omni module
+
+旧版把 3 级刚力之灵水和普通炼金原料放在一起，却把部分纺织用棉麻分到了木材花草里。传送券和惰性水晶也常常只能逐种存取。根据国服物品表、制作配方、钓鱼笔记和商店兑换记录重新划分后，右键预览、存入和取出都使用下表的范围。
+
+Grade 3 strength reagents used to share a family with general alchemy materials, while some textile fibers ended up with lumber and flowers. Travel tickets and cracked materia tokens also had to be transferred one type at a time. The revised families use the Chinese client’s item data, recipes, fishing records and shop exchanges. The menu preview, deposits and withdrawals all use the same membership.
+
+| 类别 / Family | 国服物品数 / Items | 存取范围 / What moves together |
+| --- | ---: | --- |
+| 鱼和水产品 / Fish and seafood | 2,822 | 含刺鱼、可收藏鱼、重建水产、贝虾，以及能作活饵的真鱼。专用鱼饵和鱼料理另分。<br>Includes spearfishing catches, collectable fish, Restoration catches, shellfish and fish used for mooching. Fishing tackle and prepared meals stay in their own families. |
+| 传送券 / Teleport tickets | 9 | 通用传送券、7 种定点券和传送网使用优惠券。<br>The standard aetheryte ticket, seven destination-specific tickets and the teleport discount voucher. |
+| 魔晶石兑换物 / Materia exchange tokens | 16 | 惰性炸裂状水晶可与其他兑换用水晶、晶簇及两种玛哈物质一起搬运。成品魔晶石和元素水晶另分。<br>Cracked crystals and clusters group with the two Mhachi tokens used to obtain materia. Finished materia and elemental crystals stay in separate families. |
+| 灵水、幻水和宝水 / Crafting reagents | 85 | 含各属性、各等级的灵水、幻水、宝水及相应的工匠款和收藏品。战斗药单独归类。<br>Groups the reisui, alkahest and gemsap series across attributes and grades, including their artisan and collectable variants. Consumable stat potions are handled separately. |
+| 布匹和纤维 / Cloth and fibers | 314 | 阿拉米格纤维与布、纱线、棉麻、毛和茧归在一起。65 种原先划进木材花草的纺织原料已归回。<br>Ala Mhigan Fiber now groups with cloth, yarn, cotton, flax, wool and cocoons. This brings 65 textile materials back from the lumber and flowers family. |
+| 藏宝图 / Treasure maps | 27 | 按游戏寻宝表归类，包含隐藏地图和深层传送魔纹的地图。<br>Follows the game’s treasure-hunt data, including hidden maps and maps that lead to deeper treasure chambers. |
+
+本版对照国服数据检查了 51,228 条有名称的物品。65 项菜单及转移模拟检查通过，覆盖六个新类别的存取两向。上表数字为物品种数，实际右键菜单显示当前背包匹配的格数。
+
+The category checks covered 51,228 named items in the Chinese client data. All 65 menu and transfer simulation checks passed, including deposits and withdrawals for each revised family. The table counts item types. The in-game menu shows how many slots match in the current inventory.
+
 ## 1.1.1 · 菜单对齐，首次公开订阅 / Menu alignment and first public release
 
 2026-11-24 本地构建 / Local build · 2026-11-25 公开发布 / Public release

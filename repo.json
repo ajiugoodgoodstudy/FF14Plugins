@@ -3,13 +3,14 @@
     "Author": "Codex",
     "Name": "雇员同类物品存取",
     "InternalName": "RetainerStackTransfer",
-    "AssemblyVersion": "1.1.1.0",
+    "AssemblyVersion": "1.2.0.0",
     "DalamudApiLevel": 15,
     "ApplicableVersion": "any",
     "Punchline": "在雇员背包中，右键按物品类别批量存取。",
     "Description": "打开雇员道具栏后，右键自己的物品可存入同类物品，右键雇员的物品可取出同类物品。关闭道具栏会停止本次操作。",
     "RepoUrl": "https://github.com/ajiugoodgoodstudy/FF14Plugins",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/ajiugoodgoodstudy/FF14Plugins/main/Plugins/RetainerStackTransfer/1.1.1.0/RetainerStackTransfer.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/ajiugoodgoodstudy/FF14Plugins/main/Plugins/RetainerStackTransfer/1.1.1.0/RetainerStackTransfer.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/ajiugoodgoodstudy/FF14Plugins/main/Plugins/RetainerStackTransfer/1.2.0.0/RetainerStackTransfer.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/ajiugoodgoodstudy/FF14Plugins/main/Plugins/RetainerStackTransfer/1.2.0.0/RetainerStackTransfer.zip",
+    "Changelog": "重新整理鱼和水产品、传送券、魔晶石兑换物、灵水类、布匹和纤维、藏宝图。灵水与其他炼金原料分开，65 种纺织原料从木材花草归回布匹类。\n\nRevised six families: fish and seafood, teleport tickets, materia exchange tokens, gear-crafting reagents, cloth and fibers, and treasure maps. The gear-crafting reagents now form their own family, and 65 textile materials previously grouped with lumber and flowers now move with cloth."
   }
 ]
