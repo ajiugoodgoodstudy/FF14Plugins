@@ -5,6 +5,10 @@ FF14Plugins
 
 打开雇员道具栏后，右键自己背包里的物品，选择「存入同类物品」。右键雇员背包里的物品，选择「取出同类物品」。菜单会显示匹配的类别和格数。
 
+With a retainer’s inventory open, right-click an item in your own bags to deposit matching items, or in the retainer’s bags to retrieve them. The menu shows the family and the number of matching slots.
+
+[更新记录 / Changelog](CHANGELOG.md)
+
 ### 橙月独立版
 
 在 Dalamud 设置的「自定义插件仓库」添加下面的地址并保存，然后在插件安装器搜索「雇员同类物品存取」。
