@@ -3,15 +3,15 @@ FF14Plugins
 
 ## 雇员同类物品存取
 
-打开雇员道具栏后，右键自己背包里的物品，选择「存入同类物品」。右键雇员背包里的物品，选择「取出同类物品」。菜单会显示匹配的类别和格数。
+打开雇员道具栏或陆行鸟鞍囊后，右键自己背包中的物品，可按类别批量存入。右键雇员或鞍囊中的物品，可将同类物品取回自己的背包。菜单括号会显示类别和来源背包中匹配的格数。
 
-With a retainer’s inventory open, right-click an item in your own bags to deposit matching items, or in the retainer’s bags to retrieve them. The menu shows the family and the number of matching slots.
+Open a retainer’s inventory or your chocobo saddlebag. Right-click an item in your inventory to deposit items of the same family. To bring them back, right-click an item in the retainer’s inventory or saddlebag. The menu shows the family and how many source slots match.
 
-**当前版本 / Current version: 1.2.0** · 2026-11-25
+**当前版本 / Current version 1.3.0** · 2026-11-25
 
-本次整理了鱼和水产品、传送券、魔晶石兑换物、灵水类、布匹纤维和藏宝图。右键预览、存入和取出使用同一套分类。
+两个窗口同时打开时，玩家背包的右键菜单会列出「将同类物品交给雇员」和「将同类物品存入鞍囊」。鞍囊存取会优先补满目标背包中同物品、同品质的已有堆叠。已解锁且加载完成的扩容鞍囊与普通鞍囊合并计算。
 
-Version 1.2.0 revises six families: fish and seafood, teleport tickets, materia exchange tokens, gear-crafting reagents, cloth and fibers, and treasure maps. The preview and both transfer directions use the same families.
+With both windows open, your inventory menu offers separate commands to send matching items to the retainer or the saddlebag. Saddlebag transfers fill existing stacks of the same item and quality first. The standard and expanded saddlebags count as one inventory when the expansion is unlocked and loaded.
 
 [查看从 1.0.0 开始的中英更新记录 / Read the bilingual changelog from 1.0.0](CHANGELOG.md)
 

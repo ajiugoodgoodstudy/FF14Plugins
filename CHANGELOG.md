@@ -4,6 +4,26 @@
 
 Each entry is maintained in Chinese and English. Dates use Beijing time (UTC+8). The entries from 1.0.0 through 1.1.0 are based on archived local builds and tests. The first version available through the GitHub feeds was 1.1.1.
 
+## 1.3.0 · 陆行鸟鞍囊存取 / Chocobo saddlebag transfers
+
+2026-11-25 · 橙月独立版与 Omni 模块 / Standalone Dalamud plugin and Omni module
+
+打开陆行鸟鞍囊，右键自己背包里的物品，选择「将同类物品存入鞍囊」。要取回时，右键鞍囊里的物品，选择「从鞍囊取出同类物品」。鞍囊与雇员道具栏同时打开时，玩家背包会显示两个存入目标，各自带有粉色 OT 标记。
+
+With the chocobo saddlebag open, right-click an item in your inventory to deposit its family, or right-click an item in the saddlebag to retrieve its family. If a retainer’s inventory is also open, the player inventory menu shows both deposit destinations, each with its own pink OT badge.
+
+- 普通鞍囊与已解锁且加载完成的扩容鞍囊共用一次预览和存取范围。存取两向都先补目标背包里同物品、同品质的未满堆，再使用空格。空间只够装下一部分时，其余物品留在原背包。
+
+  The preview and transfer cover the standard saddlebag and any unlocked, loaded expansion. Deposits and withdrawals fill compatible partial stacks before using an empty slot. If only part of a stack fits, the remainder stays in its original inventory.
+
+- 关闭当前存取窗口或切换角色会停止后续移动。雇员存取时切换雇员、鞍囊存取时可用页发生变化，也会中止。聊天栏只统计两侧都确认的数量。已提交的移动若仍未确认，会提示核对两侧背包。
+
+  Further moves stop when the active storage window closes or the player switches characters. A retainer transfer also stops if the retainer changes, and a saddlebag transfer stops if its accessible pages change. Chat counts items confirmed in both inventories and flags any submitted moves still awaiting confirmation.
+
+国服实测在鞍囊中分别存入并取回 5 张九宫幻卡、317 件料理和 8 份乐谱，三次往返的数量均已确认。93 项菜单与转移检查、500 组随机背包模拟均通过。普通与扩容鞍囊之间的跨页行为通过离线回归验证。
+
+In the Chinese client, three saddlebag round trips confirmed all 5 Triple Triad cards, 317 food items and 8 orchestrion rolls on both deposit and withdrawal. All 93 menu and transfer checks and 500 randomized inventory simulations passed. Offline tests covered transfers spanning the standard and expanded saddlebag pages.
+
 ## 1.2.0 · 重整六类物品 / Six revised item families
 
 2026-11-25 · 橙月独立版与 Omni 模块同步发布 / Standalone Dalamud plugin and Omni module

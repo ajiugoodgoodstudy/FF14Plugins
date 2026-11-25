@@ -5,20 +5,20 @@
       "InternalName": "RetainerFamilyTransfer",
       "Author": "Codex",
       "RepositoryURL": "https://github.com/ajiugoodgoodstudy/FF14Plugins",
-      "Version": "1.2.0",
+      "Version": "1.3.0",
       "ApiVersion": 1,
       "MinimumOmniVersion": "1.2.0.9",
-      "File": "Modules/RetainerFamilyTransfer/1.2.0/RetainerFamilyTransfer.dll",
-      "Sha256": "72F2FE76F18C5015C8B1CFABC48FE7988EDB18C3C7CE8510C5F532214AF87633",
+      "File": "Modules/RetainerFamilyTransfer/1.3.0/RetainerFamilyTransfer.dll",
+      "Sha256": "779BD8B1090ACF13F486C7E8303196F67080DD84A7561FE1FAD2ADDE2DCD09CD",
       "Localization": {
         "Source": {
           "Title": "雇员同类物品存取",
-          "Description": "打开雇员道具栏后，右键按类别批量存取，菜单显示类别和格数。支持鱼和水产品、传送券、魔晶石兑换物、炼金用灵水、布匹、藏宝图，以及九宫幻卡、乐谱、料理等。"
+          "Description": "打开雇员道具栏或陆行鸟鞍囊，右键物品即可在该容器与人物背包之间按类别批量存取。菜单显示类别和匹配格数。鞍囊合并普通栏与可用扩容栏。两个窗口同时打开时，可选择将物品存入雇员或鞍囊。"
         },
         "Translations": {
           "English": {
             "Title": "Retainer Transfers by Item Type",
-            "Description": "Open your retainer’s inventory and right-click an item to deposit or withdraw items of the same type. The menu shows the type and the number of matching slots. Supported types include fish and other seafood, teleport tickets, materia exchange tokens, alchemical waters, textiles, treasure maps, Triple Triad cards, orchestrion rolls, and meals."
+            "Description": "Open your retainer’s inventory or chocobo saddlebag and right-click an item to transfer its family to or from your inventory. The menu shows the family and the number of matching slots. Saddlebag transfers include all available standard and premium pages. With both windows open, you can choose either deposit destination."
           }
         }
       }
